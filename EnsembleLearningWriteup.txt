@@ -1,0 +1,73 @@
+Daniel Hornberger
+
+When your assignment is complete, please answer the questions in this text file and upload it to I-Learn.
+
+https://github.com/lightningWhite/EnsembleLearning
+
+1. List the first dataset you tried, and then each of the algorithms along with the accuracy that each achieved. (If you played around with different parameters, you can simply report the best result for that algorithm).
+
+Autism Data
+--------------------------------------
+kNN Accuracy: 86.3702213279678
+Bagging w/KNN Accuracy: 87.07645875251508
+ 
+DecisionTree Accuracy: 78.69818913480884
+AdaBoost w/d-Tree Accuracy: 86.37424547283702
+ 
+NeuralNet Accuracy: 85.22535211267606
+RandForest Accuracy: 87.07645875251508
+--------------------------------------
+
+2. List the second dataset you tried, and then each of the algorithms along with the accuracy that each achieved. (If you played around with different parameters, you can simply report the best result for that algorithm).
+
+Car Data
+--------------------------------------
+kNN Accuracy: 96.817112515123
+Bagging w/KNN Accuracy: 72.04799032127974
+ 
+DecisionTree Accuracy: 98.09013308240357
+AdaBoost w/d-Tree Accuracy: 86.33989783573061
+ 
+NeuralNet Accuracy: 90.44898507863961
+RandForest Accuracy: 75.46175561231348
+--------------------------------------
+
+3. List the third dataset you tried, and then each of the algorithms along with the accuracy that each achieved. (If you played around with different parameters, you can simply report the best result for that algorithm).
+
+Breast Cancer Data
+--------------------------------------
+kNN Accuracy: 97.01127819548871
+Bagging w/KNN Accuracy: 94.90601503759397
+ 
+DecisionTree Accuracy: 91.04636591478695
+AdaBoost w/d-Tree Accuracy: 97.71929824561404
+ 
+NeuralNet Accuracy: 97.01127819548871
+RandForest Accuracy: 94.55513784461151
+--------------------------------------
+
+4. Please describe anything else you learned or did for this assignment (i.e., above and beyond requirements)
+
+This was a very interesting assignment. It actually took me several hours to get everything all working
+and the three datasets. Since I had implemented some of the algorithms instead of used them on 
+previous assignments, it took me a little extra time to figure out how to simply use them.
+In going above and beyond, I spend extra time playing around with the attributes and trying to
+get better results for the ensemble learning algorithms. I tried to find different parameters that
+I could include. Surprisingly, the ensemble learning algorithms performed slightly worse or the same
+as the stand alone algorithms. This confused me because it should have been the other way around. Regardless,
+I tried a bunch of combinations of parameters but had a hard time getting the performace better.
+
+5. Please select the category you feel best describes your assignment:
+A - Some attempt was made
+B - Developing, but significantly deficient
+C - Slightly deficient, but still mostly adequate
+D - Meets requirements
+E - Shows creativity and excels above and beyond requirements
+
+
+6. Provide a brief justification (1-2 sentences) for selecting that category.
+
+I feel like I reached the "E - Shows creativity and excels above and beyond requirements" status
+due to the 3-4 hours I spent on it along with the extra parameter testing I did on the ensemble
+learning algorithms. I also tried to use datasets that were a little more challenging to use since
+they should have provided more interesting results.
